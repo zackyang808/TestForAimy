@@ -49,12 +49,6 @@ export default defineConfig({
               redirect: '/testforaimy',
             },
             {
-              name: 'list.table-list',
-              icon: 'table',
-              path: '/list',
-              component: './ListTableList',
-            },
-            {
               name: 'test-for-aimy',
               icon: 'table',
               path: '/testforaimy',
