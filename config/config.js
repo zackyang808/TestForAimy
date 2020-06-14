@@ -11,7 +11,7 @@ export default defineConfig({
   },
   locale: {
     // default zh-CN
-    default: 'zh-CN',
+    default: 'en-US',
     // default true, when it is true, will use `navigator.language` overwrite default
     antd: true,
     baseNavigator: true,
@@ -46,7 +46,7 @@ export default defineConfig({
           routes: [
             {
               path: '/',
-              redirect: '/list',
+              redirect: '/testforaimy',
             },
             {
               name: 'list.table-list',
@@ -55,12 +55,18 @@ export default defineConfig({
               component: './ListTableList',
             },
             {
+              name: 'test-for-aimy',
+              icon: 'table',
+              path: '/testforaimy',
+              component: './TestForAimy',
+            },
+            {
               component: './404',
             },
           ],
         },
         {
-          component: './404', 
+          component: './404',
         },
       ],
     },

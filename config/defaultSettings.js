@@ -10,7 +10,7 @@ const proSettings = {
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: 'Test For Aimy',
   pwa: false,
   iconfontUrl: '',
 };
